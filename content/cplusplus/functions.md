@@ -50,7 +50,7 @@ Output:
 25
 ```
 
-Example 2. A function to increment all values of vector by 5, and a void function to print a vector :
+<b>Example 2 :</b> A function to increment all values of vector by 5, and a void function to print a vector :
 ```c
 #include <bits/stdc++.h>
 using namespace std;
@@ -90,17 +90,17 @@ Output:
 Before : 1 2 3 4 5 
 After : 6 7 8 9 10 
 ```
-Note: We have to declare a function before we use it.
+<b>Note:</b> We have to declare a function before we use it.
 
 ##There are two types of functions :
-Built-in Functions
-User-defined Functions
+- Built-in Functions
+- User-defined Functions
 
 ## 1. Built-in functions : 
 These are the library functions and are provided by C++ so that we can use some functionalities directly like sort, math operations etc. These functions are abstractly written and we are not able to access its implementation. We use header files that give us direct access to those functions.
 You can check the the header files and there use here : https://en.cppreference.com/w/cpp/header
 
-Example : 
+<b>Example : </b>
 ```c
 #include <iostream>	// iostream is used for data types and input/ output functions
 using namespace std;
@@ -146,7 +146,7 @@ Queue Elements are : 2 4 6 8
 ## 2. User defined functions:
 The functions that are defined by users themselves are called user defined functions. We can define functions specific to tasks that we want them to perform. The functions must be declared before calling them.
 
-Example : 
+<b>Example : </b>
 ```c
 #include <iostream>
 using namespace std;
@@ -182,12 +182,12 @@ Greatest Common Divisor of 32 and 12 is 4
 - Pass by Value
 - Pass by Reference
 
-Note : Formal parameters are the parameters that function receives and actual parameters are the parameters ( the actual values ) that are passed to the function.
+<b>Note :</b> Formal parameters are the parameters that function receives and actual parameters are the parameters ( the actual values ) that are passed to the function.
 
 ## 1. Pass by Value : 
 In this formal parameters and actual parameters are stored in two different memory locations i.e. formal parameters have a copy of actual parameters. So, any operation or update that we perform inside a function does not change the value of actual parameters.
 
-Example : A program to increment all values of vector by 10 -
+<b>Example :</b> A program to increment all values of vector by 10 -
 ```c
 #include <bits/stdc++.h>
 using namespace std;
@@ -226,7 +226,7 @@ Values in vector are : 1 2 4 8 13
 ## 2. Pass by Reference : 
 In this actual and formal parameters point to the same memory location. So, any operation or update that we perform inside a function also updates the value of actual parameters. 
 
-Example : 
+<b>Example : </b>A program to increment all values of vector by 10 -
 ```c
 #include <bits/stdc++.h>
 using namespace std;
