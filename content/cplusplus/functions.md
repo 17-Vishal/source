@@ -20,7 +20,7 @@ Parameter name: This can be different from the name that is used while calling t
 
 ![Functions in C++](/images/cplusplus/functions.png "Functions")
 
-Note : It is not necessary that every time a function will be returning something, it can also be a void function
+<b>Note :</b> It is not necessary that every time a function will be returning something, it can also be a void function
 
 ## Why do we need functions:
 Functions provide reusability and modularity to code i.e. instead of writing  the same piece of code multiple times we can define it once at a single place in a function. It makes code more readable. It helps to reduce the size of code and also helps to make debugging easy.
@@ -92,7 +92,7 @@ After : 6 7 8 9 10
 ```
 <b>Note:</b> We have to declare a function before we use it.
 
-##There are two types of functions :
+## There are two types of functions :
 - Built-in Functions
 - User-defined Functions
 
