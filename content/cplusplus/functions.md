@@ -179,8 +179,8 @@ Greatest Common Divisor of 32 and 12 is 4
 ```
 
 ## Furthermore, there are two ways of passing parameters to a function :
-Pass by Value
-Pass by Reference
+- Pass by Value
+- Pass by Reference
 
 Note : Formal parameters are the parameters that function receives and actual parameters are the parameters ( the actual values ) that are passed to the function.
 
@@ -262,7 +262,7 @@ Output :
 Values in vector are : 11 12 14 18 23 
 ```
 
-##Conclusion: 
+## Conclusion: 
 Functions are a very important part of programming in CPP. It provides us with modularity and reusability. It makes our code simple and more readable. It further helps in advanced data structures like recursion, backtracking, tree implementation, graphs, etc. So we can say that functions are the most important pillars of programming in CPP. 
 
 
