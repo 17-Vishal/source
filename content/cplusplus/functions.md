@@ -27,7 +27,7 @@ Functions provide reusability and modularity to code i.e. instead of writing  th
 
 Note  : Every CPP program should have a main function. Every time a user runs a program, the main() function of CPP is called by the Operating System.
 
-Example 1 : A function to return the square of a number -
+<b>Example 1 :</b> A function to return the square of a number -
 ```c
 #include <bits/stdc++.h>
 using namespace std;
