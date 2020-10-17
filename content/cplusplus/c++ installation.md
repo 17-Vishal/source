@@ -50,52 +50,52 @@ A compiler is a program that converts the high level programming language to mac
 
 We will be installing a GNU GCC compiler.
 
-First of all open the command prompt by pressing CTRL+ALT+T
+- First of all open the command prompt by pressing CTRL+ALT+T
 Then run these following commands.
 ‘’’c
 sudo apt-get update
 ‘’’
-Then enter the password to your computer
+- Then enter the password to your computer
 ![C++ Installation and Environment Setup](/images/cplusplus/7_img.png "update")
 
-Now to install GCC compiler use command 
+- Now to install GCC compiler use command 
 ‘’’c
 sudo apt-get install GCC
 ‘’’
 ![C++ Installation and Environment Setup](/images/cplusplus/8_img.png "install")
 
-Then run this command that will install all libraries required to compile and run the program.
+- Then run this command that will install all libraries required to compile and run the program.
 ‘’’c
 sudo apt-get install build-essential
 ‘’’
 ![C++ Installation and Environment Setup](/images/cplusplus/9_img.png "build")
 
 
-Now check if the GCC is installed correctly by command.
+- Now check if the GCC is installed correctly by command.
 ‘’’c
 g++ --version
 ‘’’
 ![C++ Installation and Environment Setup](/images/cplusplus/10_img.png "check")
 
-Now the GCC is successfully installed.
+- Now the GCC is successfully installed.
 
 
 ## Now we will walk through examples to run and compile a program
 
 ### Example 1 - Print a message Hello World
 
-First we have to open a text editor and write our code 
+- First we have to open a text editor and write our code 
 ![C++ Installation and Environment Setup](/images/cplusplus/11_img.png "open")
 
-Save the programme with name lets say here first_programme on desktop with .cpp extension.
+- Save the programme with name lets say here first_programme on desktop with .cpp extension.
 ![C++ Installation and Environment Setup](/images/cplusplus/12_img.png "save")
 
-Then open the command prompt with command CTRL+ALT+T.
+- Then open the command prompt with command CTRL+ALT+T.
 
-Then move to the directory where our programme file is saved by using cd _.
+- Then move to the directory where our programme file is saved by using cd _.
 ![C++ Installation and Environment Setup](/images/cplusplus/13_img.png "move")
 
-Then write the following command to compile 
+- Then write the following command to compile 
 ‘’’c
 G++ filename.cpp -o output-file-name
 ‘’’
@@ -103,37 +103,37 @@ G++ filename.cpp -o output-file-name
 **Note -** filename.cpp is source code file
 **Note -** output-file-name is name given to executable file which will be created by compiler
 
-In this case we make a output file with name Output_file_1
+- In this case we make a output file with name Output_file_1
 ![C++ Installation and Environment Setup](/images/cplusplus/14_img.png "execute-file")
 
-On running this command an executable file with name Output_file_1 will be saved in the same directory where our source code is saved.
+- On running this command an executable file with name Output_file_1 will be saved in the same directory where our source code is saved.
 ![C++ Installation and Environment Setup](/images/cplusplus/16_img.png "desktop")
 
-To run the programme we need to write this command in the terminal window which will show us the output of the programme.
+- To run the programme we need to write this command in the terminal window which will show us the output of the programme.
 ![C++ Installation and Environment Setup](/images/cplusplus/15_img.png "output")
 
-Output Hello World is printed in the terminal window.
+- Output Hello World is printed in the terminal window.
 
 
 ### Example 2 - Programme which also takes an input. We have to write a program that takes in radius and prints the area of the circle.
 
-Open text editor and write programme
+- Open text editor and write programme
 ![C++ Installation and Environment Setup](/images/cplusplus/17_img.png "text-2")
 
-Then save the programme with name lets say here second_programme on desktop with .cpp extension.
+- Then save the programme with name lets say here second_programme on desktop with .cpp extension.
 ![C++ Installation and Environment Setup](/images/cplusplus/18_img.png "save-2")
 
-Go to the programme directory in command prompt and type compile command.
+- Go to the programme directory in command prompt and type compile command.
 ‘’’c
 g++ second_programme.cpp -o Output_file_2
 ‘’’
-Then run the executable file through command ( ./Output_file_2 )
+- Then run the executable file through command ( ./Output_file_2 )
 ![C++ Installation and Environment Setup](/images/cplusplus/19_img.png "run-2")
 
-The terminal will wait for the input of radius, here let us provide **5** and hit enter.
+- The terminal will wait for the input of radius, here let us provide **5** and hit enter.
 ![C++ Installation and Environment Setup](/images/cplusplus/20_img.png "final")
 
-We will get output area as 78.5.
+**We will get output area as 78.5.**
 
 
 
