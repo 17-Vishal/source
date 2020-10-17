@@ -39,8 +39,8 @@ In this also we can choose from multiple languages. We can also provide a custom
 
 ## Setting up the local environment 
 To run a C++ code on a local machine we need two main things. 
-Text Editor 
-C++ compiler
+- Text Editor 
+- C++ compiler
 
 ### 1. Text Editor - 
 This is used to write and edit our C++ programs. One important thing that is to be considered here is that the file must be saved with a .cpp extension. This file contains our source code. We can simply use a text editor or notepad for writing our source code. Compiler identifies that the file has a C++ program if it is saved with a .cpp extension.
