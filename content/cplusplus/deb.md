@@ -7,78 +7,78 @@ Deb is a collection of archived files that is managed by Debian Package Manageme
 In this article we will be installing **google chrome** in ubuntu.
 
 - First we have to download chrome from their official website. Follow this link ( https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMIldnlusK97AIVBiwYCh0nxAnvEAAYASAAEgJYoPD_BwE&gclsrc=aw.ds )
-![Installation in ubuntu](/images/cplusplus/deb_1.png "download"
+![Installation in ubuntu](/images/cplusplus/deb_1.png "download")
 
 -Now click on the Download button and select your linux type.
-![Installation in ubuntu](/images/cplusplus/deb_2.png "download-start"
+![Installation in ubuntu](/images/cplusplus/deb_2.png "download-start")
 
 -Your download will be available in download folder
-![Installation in ubuntu](/images/cplusplus/deb_3.png "folder"
+![Installation in ubuntu](/images/cplusplus/deb_3.png "folder")
 
 ## Now we will see multiple ways of installing the google chrome.
 
-### -Software Center
--First simplest way to install this file is to just double click on it and it will open it in software center like this
-![Installation in ubuntu](/images/cplusplus/deb_4.png "software-center"
+### 1. Software Center
+- First simplest way to install this file is to just double click on it and it will open it in software center like this
+![Installation in ubuntu](/images/cplusplus/deb_4.png "software-center")
 
--Then you just need to click on install and enter password. Installation will start 
-![Installation in ubuntu](/images/cplusplus/deb_5.png "install-start"
+- Then you just need to click on install and enter password. Installation will start 
+![Installation in ubuntu](/images/cplusplus/deb_5.png "install-start")
 
 
-### -Installing .deb file using gdebi
+### 2. Installing .deb file using gdebi
 While installing through software center, sometimes we can face some error like dependency error. This is because our software is dependent on some other piece of software or library. This occurs because while preparing the deb package, sometimes the developer may assume that some other required library or software is already available, but if it is not there then the system gives an error message.
 To handle this we have gdebi, which is a lightweight GUI application.
 Its sole purpose is to install deb packages. It detects the dependencies and tries to install them along the package. Lets see how it works - 
 
--First we have to install gdebi
+- First we have to install gdebi
 Open Command prompt ( CTRL+ALT+T ), then type command :
 ‘’’c
 sudo apt install gdebi
 ‘’’
 and enter a password to your computer. Gdebi package installer application will be installed.
-![Installation in ubuntu](/images/cplusplus/deb_6.png "gdebi"
+![Installation in ubuntu](/images/cplusplus/deb_6.png "gdebi")
 
--Right click on the downloaded file and select open with “ gdebi package installer “. Then click Install Package
-![Installation in ubuntu](/images/cplusplus/deb_7.png ""
+- Right click on the downloaded file and select open with “ gdebi package installer “. Then click Install Package
+![Installation in ubuntu](/images/cplusplus/deb_7.png "install")
 
--Then google chrome will be installed
-![Installation in ubuntu](/images/cplusplus/deb_8.png “install-google"
+- Then google chrome will be installed
+![Installation in ubuntu](/images/cplusplus/deb_8.png “install-google")
 
-### -Installing deb files using dpkg command
+### 3. Installing deb files using dpkg command
 For dpkg we will use -i parameter
 
--Then type command { sudo dpkg -i path_to_the_file } in the terminal window and enter password.
+- Then type command { sudo dpkg -i path_to_the_file } in the terminal window and enter password.
 ‘’’c
 sudo dpkg -i ./Downloads/google-chrome-stable_current_amd64.deb 
 ‘’’
-![Installation in ubuntu](/images/cplusplus/deb_11.png "install-through-dpkg"
+![Installation in ubuntu](/images/cplusplus/deb_11.png "install-through-dpkg")
 
--If we get error of missing dependencies, we can use this apt command to fix them
+- If we get error of missing dependencies, we can use this apt command to fix them
 ‘’’c
 sudo apt install -f
 ‘’’
-![Installation in ubuntu](/images/cplusplus/deb_12.png "fix"
+![Installation in ubuntu](/images/cplusplus/deb_12.png "fix")
 
--To remove the package we have to use -r parameter
+- To remove the package we have to use -r parameter
 ‘’’c
 sudo dpkg -r google-chrome-stable
 ‘’’
-![Installation in ubuntu](/images/cplusplus/deb_13.png "remove"
+![Installation in ubuntu](/images/cplusplus/deb_13.png "remove")
 
-### -Installing deb file using apt command
+### 4. Installing deb file using apt command
 To install using apt command, first we must have apt installed. Apt command uses dpkg underneath. It is more easy and popular.
 
--Then type command { sudo apt install path_to_the_file } in the terminal window.
+- Then type command { sudo apt install path_to_the_file } in the terminal window.
 ‘’’c
 sudo apt install ./Downloads/google-chrome-stable_current_amd64.deb 
 ‘’’
-![Installation in ubuntu](/images/cplusplus/deb_9.png "install-through-apt"
+![Installation in ubuntu](/images/cplusplus/deb_9.png "install-through-apt")
 
--You can also remove this file by command
+- You can also remove this file by command
 ‘’’c
 sudo apt remove google-chrome-stable
 ‘’’
-![Installation in ubuntu](/images/cplusplus/deb_10.png "remove-through-apt"
+![Installation in ubuntu](/images/cplusplus/deb_10.png "remove-through-apt")
 
 
 
